@@ -1,13 +1,15 @@
 import React from 'react';
-import me from '../../images/me/ebrahim.jpg';
+import me1 from '../../images/me/ebrahim.jpg';
+import me2 from '../../images/me/ebrahim2.gif';
 import './About.css'
 const About = () => {
     return (
         
         <div className='container bg-style p-3'>
-            <img className='my-img-style' src={me} alt=""/>
-            <h2>Created by : MD. Ebrahim Alli</h2>
-            <p>HI.<br/> I am Ebrahim<br/> . I'm from Bangladesh. I am a Jr. full stack web developer.<br/> Currently working at Sofwid as a Jr. Front end web developer intern (remotely).<br/> And also I am a moderator at Programming Hero from 2 Years. <br/> I love learning new technologies every day. Currently I am learning the skill of web development.</p>
+            <img className='my-img-style' src={me1} alt=""/><br/>
+            <img className='gif-style' src={me2} alt=""/>         
+            <h2>Created by : MD. Ibrahim Alli </h2>
+            <p>HI.<br/> I am Ebrahim.<br/> I'm from Bangladesh.<br/> I am a web developer and graphic designer.<br/> My experience in 3 years of graphic design  now im start web developer.<br/>I hope it's my long journey and my career.</p>
         </div>
     );
 };
