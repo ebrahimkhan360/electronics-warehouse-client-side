@@ -22,8 +22,10 @@ const Banner = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption className='text-md-start'>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <h3>FIND YOUR PERFECT TV <br/>
+                            AT A LOWER PRICHE 
+                        </h3>
+                        <p>nous your flexor of refurbishet ttelevision at <br/>lower price then the High Street</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
