@@ -36,8 +36,8 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className='text-start'>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <h3>Motherboard</h3>
+                        <p>The motherboard is the backbone <br/> or platform of your PC.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -48,9 +48,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption className='text-start'>
-                        <h3>Third slide label</h3>
+                        <h3>Android TV</h3>
                         <p>
-                            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        A TV can increase the level of entertainment in your home.<br/>  But in order to find the TV you <br/>  like from so many TVs in the market.
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>
