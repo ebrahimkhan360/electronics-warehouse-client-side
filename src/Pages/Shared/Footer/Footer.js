@@ -10,8 +10,6 @@ const Footer = () => {
             <div  className='container'>
             <div className='text-center'>
             <p className='pt-3 cpopyright-style'>&copy; Copyright 2022</p>
-                <a className='footer-angcor' href='md.ebrahim.khan.w@gmail.com'> md.ebrahim.khan.w@gmail.com</a>
-            
             </div>
             <div className='d-flex'>
                 <img className='icon-style' src={icon1} alt=""/><br/>
