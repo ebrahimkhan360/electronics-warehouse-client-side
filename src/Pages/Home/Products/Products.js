@@ -4,7 +4,7 @@ import './Products.css'
 const Products = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/servics')
+        fetch('https://boiling-cove-18782.herokuapp.com/servics')
             .then(res => res.json())
             .then(data => setProducts(data))
     }, [])
